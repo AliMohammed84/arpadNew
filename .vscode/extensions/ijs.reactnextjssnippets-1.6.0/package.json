@@ -1,0 +1,53 @@
+{
+	"name": "reactnextjssnippets",
+	"displayName": "Next.js React Snippets by iJS",
+	"description": "React Snippets (ES6) tailored for Next.js apps",
+	"publisher": "iJS",
+	"version": "1.6.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ijsto/reactnextjssnippets"
+	},
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"author": "(Scott) Agirs Neminskis <scott@ijs.to>",
+	"keywords": [
+		"VSCode",
+		"Snippets",
+		"React",
+		"React Snippets",
+		"Nextjs",
+		"Nextjs Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets-ts.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets-ts.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "601c91d9-2c74-4616-89dd-2ecb4baf3f02",
+		"publisherId": "0557c4be-d7ab-40a4-bec3-09c5e54dfce4",
+		"publisherDisplayName": "iJS.to",
+		"installedTimestamp": 1620470280368
+	}
+}
